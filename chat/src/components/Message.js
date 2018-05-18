@@ -9,7 +9,7 @@ const Message = ({ message, author }) => (
 
 Message.PropTypes = {
   message: PropTypes.string.isRequired,
-  author: PropTypes.string.isRequred
+  author: PropTypes.string.isRequired
 };
 
-export default AddMessage;
+export default Message;
